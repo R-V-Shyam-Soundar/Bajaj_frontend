@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Roll Number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JSON Input and Response</h1>
+        <textarea id="jsonInput" placeholder="Enter valid JSON"></textarea>
+        <button id="submitBtn">Submit</button>
+        <div id="error" class="error"></div>
+        
+        <select id="options" multiple style="display:none;">
+            <option value="alphabets">Alphabets</option>
+            <option value="numbers">Numbers</option>
+            <option value="highestLowercase">Highest Lowercase Alphabet</option>
+        </select>
+        
+        <div id="response"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
